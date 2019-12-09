@@ -1,4 +1,4 @@
-FROM jupyterhub/jupyterhub
+FROM jupyterhub/jupyterhub:1.0.0
 
 RUN pip install jupyterhub-dummyauthenticator
 
